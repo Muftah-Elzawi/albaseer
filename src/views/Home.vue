@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <h1>hello</h1>
+    <v-container>
+      <SlidShow/>
+    </v-container>
    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
+import SlidShow from "../components/slidshow"
 
 export default {
   name: 'Home',
   components: {
-   
+   SlidShow,
   },
   
 }

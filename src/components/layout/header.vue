@@ -2,8 +2,10 @@
     <nav>
     <v-app-bar
       app
-      color="primary"
+      color="#007F9C"
       dark
+      flat
+      style="padding-bottom: 100px;"
     >
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
@@ -22,10 +24,11 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        href="http://localhost:8080/SignIn"
         target="_blank"
         text
       >
+      <router-link></router-link>
         <!-- <v-icon>mdi-account-circle</v-icon> -->
         <v-img alt="Vuetify Name"
           class="shrink mt-1 hidden-sm-and-down"
